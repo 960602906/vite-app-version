@@ -1,0 +1,5 @@
+export const DEFAULT_META_NAME = "buildTime"
+export const DEFAULT_GLOBAL_NAME = "__APP_BUILD_TIME__"
+export const DEFAULT_WATCH_CONFIG_GLOBAL_NAME = "__APP_VERSION_WATCH_CONFIG__"
+export const VIRTUAL_MODULE_ID = "virtual:app-version"
+export const RESOLVED_VIRTUAL_MODULE_ID = "\0virtual:app-version"
