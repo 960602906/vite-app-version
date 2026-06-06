@@ -1,6 +1,6 @@
 {
   "name": "vite-app-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin + runtime client for SPA version detection via buildTime, with configurable watch triggers and onUpdate callback",
   "type": "module",
   "main": "./dist/index.js",
