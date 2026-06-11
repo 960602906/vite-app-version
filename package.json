@@ -1,6 +1,6 @@
 {
   "name": "vite-app-version",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vite plugin + runtime client for SPA version detection via buildTime, with configurable watch triggers and onUpdate callback",
   "type": "module",
   "main": "./dist/index.js",
@@ -13,9 +13,9 @@
       "require": "./dist/index.cjs"
     },
     "./client": {
-      "types": "./src/client/index.ts",
-      "import": "./src/client/index.ts",
-      "default": "./dist/client.js"
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.js",
+      "require": "./dist/client.cjs"
     },
     "./virtual": {
       "types": "./dist/virtual.d.ts"

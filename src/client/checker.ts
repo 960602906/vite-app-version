@@ -158,6 +158,14 @@ export class VersionChecker {
     }
   }
 
+  /** 停止轮询检查（清除 startWatching 启动的定时器） */
+  stopWatching(): void {
+    if (this.pollTimerId !== undefined) {
+      window.clearInterval(this.pollTimerId)
+      this.pollTimerId = undefined
+    }
+  }
+
   async manualCheck(): Promise<boolean> {
     return this.checkForUpdates()
   }

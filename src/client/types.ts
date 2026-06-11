@@ -1,5 +1,3 @@
-import type { VersionWatchTriggers } from "../shared/watch-triggers"
-
 export type { VersionWatchTriggers } from "../shared/watch-triggers"
 
 export interface VersionUpdateInfo {
